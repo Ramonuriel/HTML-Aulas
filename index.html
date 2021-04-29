@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image / x-icon">
+    <title> Indicações de Animes</title>
+
+</head>
+
+
+<body bgcolor="Black" text="white">
+
+    <img src="files/animes.jfif" alt="Logo da pagina" width=520 heigsht=520>>
+    <header>
+        <h1>Site de Indicações de Animes </h1>
+        <hr> Olá Otakus estamos iniciando esse site para indicar animes pra vcs que são iniciantes. Espero que vcs possam aproveitar.
+
+        <p>Nos links <strong>abaixo </strong>
+            <br> vcs vão poder acessar oq vc procura
+
+    </header>
+
+
+    <nav>
+        <ul>
+            <li>
+                <a href="contact.html">Contatos</a>
+            </li><br>
+            <li> <a href="files/Animes.html">Animes</a></li><br>
+        </ul>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+    <h2>Cadastro</h2>
+    <!--Sessão de Cadastro do /usuário-->
+    <form id="Cadastro" action="" method="Post" enctype="multipart/form-data">
+
+        <fieldset form="Cadastro">
+            <legend>
+                Cadastro
+            </legend>
+            <label> Nome:</label><br>
+            <input type="text" placeholder="Digite seu Nome " required, autocomplete="name"><br>
+            <label>Nascimento</label><br>
+            <input type="date" placeholder="Seu ano de nascimento" required>
+            <br>
+
+            <label for=""> Email :  </label><br>
+            <input type="email" placeholder="Digite seu Email" required, autocomplete="on"><br>
+            <label for="">Senha:</label><br>
+            <input type="password" placeholder="Digite sua Senha " required, minlength="6" maxlength="10" size="10" autocomplete="on" title="Senha com no minimo 6 caracteres e no máximo 10 caracteres."> <br><br>
+            <label>Foto:</label>
+            <input type="file" accept="all" title="Enviar seu Curriculo"><br><br>
+            <label for="Termos">Aceitar termos de condições</label>
+            <input type="checkbox" name="termos" id="Termos"><br><br>
+            <button>Enviar </button>
+        </fieldset>
+        <h2>Avaliação</h2>
+        <fieldset>
+            <legend>Avaliação</legend>
+            <label for="yep">Sim </label>
+            <input checked type="radio" id="yep" name="avalição" value="yes">
+            <!--Avaliação-->
+
+            <label for="nono">Não</label>
+            <input type="radio" id="nono" name="Avaliação" value="no">
+            <button form="submit">Enviar</button>
+        </fieldset>
+
+        <h2>Comentários</h2>
+        <fieldset>
+
+            <textarea id="Comentários" name="comentários" rows="10" cols="50" maxlength="100"> </textarea>
+
+
+
+        </fieldset>
+    </form>
+
+    <footer></footer>
+</body>
+
+</html>
