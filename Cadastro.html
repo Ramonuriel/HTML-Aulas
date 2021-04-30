@@ -6,61 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IAnimes</title>
+    <link rel="stylesheet" href="Style.css"> </head>
 </head>
 
-<body>
-    <a href="index.html">Página Principal </a>
+<body id="corpo">
+    <a href="index.html" , class="links">Página Principal </a>
 
 
     </P>
     <header>
-        <h1>Cadastro</h1>
-        <hr><br><br><br>
-        <h2>Preencha os Dados</h2>
-        <hr> <br><br>
-        <form id="Cadastro" action="" method="Post" enctype="multipart/form-data">
+        <h1 id="title">Cadastro</h1>
+        <article class="conteudo">
 
-            <fieldset form="Cadastro">
-                <legend>
-                    Cadastro
-                </legend>
-                <label> Nome:</label><br>
-                <input type="text" placeholder="Digite seu Nome " required, autocomplete="name"><br>
-                <label>Nascimento</label><br>
-                <input type="date" placeholder="Seu ano de nascimento" required>
-                <br>
+            <hr><br><br><br>
+            <h2 class="subtitle">Preencha os Dados</h2>
+            <hr> <br><br>
+            <form id="Cadastro" action="" method="Post" enctype="multipart/form-data">
 
-                <label for=""> Email :  </label><br>
-                <input type="email" placeholder="Digite seu Email" required, autocomplete="on"><br>
-                <label for="">Senha:</label><br>
-                <input type="password" placeholder="Digite sua Senha " required, minlength="6" maxlength="10" size="10" autocomplete="on" title="Senha com no minimo 6 caracteres e no máximo 10 caracteres."> <br><br>
-                <label>Foto:</label>
-                <input type="file" accept="all" title="Enviar seu Curriculo"><br><br>
-                <label for="Termos">Aceitar termosde condições</label>
-                <input type="checkbox" name="termos" id="Termos"><br><br>
-                <button>Enviar </button>
-            </fieldset>
-            <h2>Avaliação</h2>
-            <fieldset>
-                <legend>Avaliação</legend>
-                <label for="yep">Sim </label>
-                <input checked type="radio" id="yep" name="avalição" value="yes">
-                <!--Avaliação-->
+                <fieldset form="Cadastro">
+                    <legend>
+                        Cadastro
+                    </legend>
+                    <label> Nome:</label><br>
+                    <input type="text" placeholder="Digite seu Nome " required, autocomplete="name"><br>
+                    <label>Nascimento</label><br>
+                    <input type="date" placeholder="Seu ano de nascimento" required>
+                    <br>
 
-                <label for="nono">Não</label>
-                <input type="radio" id="nono" name="Avaliação" value="no">
-                <button form="submit">Enviar</button>
-            </fieldset>
+                    <label for=""> Email :  </label><br>
+                    <input type="email" placeholder="Digite seu Email" required, autocomplete="on"><br>
+                    <label for="">Senha:</label><br>
+                    <input type="password" placeholder="Digite sua Senha " required, minlength="6" maxlength="10" size="10" autocomplete="on" title="Senha com no minimo 6 caracteres e no máximo 10 caracteres."> <br><br>
+                    <label>Foto:</label>
+                    <input type="file" accept="all" title="Enviar seu Curriculo"><br><br>
+                    <label for="Termos">Aceitar termos de condições</label>
+                    <input type="checkbox" name="termos" id="Termos"><br><br>
+                    <button>Enviar </button>
+                </fieldset>
+                <h2 class="subtitle">Avaliação</h2>
+                <fieldset>
+                    <legend>Avaliação</legend>
+                    <label for="yep">Sim </label>
+                    <input checked type="radio" id="yep" name="avalição" value="yes">
+                    <!--Avaliação-->
 
-            <h2>Comentários</h2>
-            <fieldset>
-
-                <textarea id="Comentários" name="comentários" rows="10" cols="50" maxlength="100"> </textarea>
+                    <label for="nono">Não</label>
+                    <input type="radio" id="nono" name="Avaliação" value="no">
+                    <button form="submit">Enviar</button>
+                </fieldset>
 
 
 
-            </fieldset>
-        </form>
+            </form>
+        </article>
     </header>
 
 </body>
